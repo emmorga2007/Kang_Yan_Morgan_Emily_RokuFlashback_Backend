@@ -113,4 +113,5 @@ router.get('/getall', (req, res) => {
     })
 })
 
+
 module.exports = router;
