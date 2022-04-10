@@ -18,7 +18,7 @@ This should get the back end running on port:3000
 
 ## front end:
 
-https://github.com/emmorga2007/Morgan_Roku <br>
+https://github.com/emmorga2007/Knag_Yan_Morgan_Emily_RokuFlashback_Frontend <br>
 
 In terminal window: <br>
 `cd rokufront`<br>
