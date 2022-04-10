@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1:3306
--- 產生時間： 2022-04-10 01:52:12
+-- 產生時間： 2022-04-10 04:01:39
 -- 伺服器版本： 5.7.31
 -- PHP 版本： 7.3.21
 
@@ -168,40 +168,6 @@ INSERT INTO `movies` (`id`, `movies_cover`, `movies_title`, `movies_year`, `movi
 -- --------------------------------------------------------
 
 --
--- 資料表結構 `permissions_rating`
---
-
-DROP TABLE IF EXISTS `permissions_rating`;
-CREATE TABLE IF NOT EXISTS `permissions_rating` (
-  `rating_id` int(11) NOT NULL,
-  `permisssions` int(11) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- 傾印資料表的資料 `permissions_rating`
---
-
-INSERT INTO `permissions_rating` (`rating_id`, `permisssions`) VALUES
-(1, 1),
-(2, 1),
-(3, 1),
-(4, 1),
-(5, 1),
-(6, 1),
-(1, 2),
-(2, 2),
-(1, 1),
-(2, 1),
-(3, 1),
-(4, 1),
-(1, 3),
-(2, 3),
-(3, 3),
-(4, 3);
-
--- --------------------------------------------------------
-
---
 -- 資料表結構 `ratings`
 --
 
@@ -248,10 +214,10 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`id`, `first_name`, `last_name`, `password`, `role`, `permissions`, `avatar`) VALUES
-(1, 'fred', 'flintstone', 'yabba', 1, 5, 'count_olaf.jpg'),
-(2, 'barney', 'rubble', 'dabba', 0, 3, ''),
-(3, 'Puppy', 'Doggy', 'woofwoof', 0, 2, ''),
-(4, 'Bunny', 'test', 'test', 0, 3, ''),
+(1, 'fred', 'flintstone', 'yabba', 1, 5, 'AvatarMan.png'),
+(2, 'barney', 'rubble', 'dabba', 0, 3, 'AvatarOld.png'),
+(3, 'Puppy', 'Doggy', 'woofwoof', 0, 2, 'AvatarWoman.png'),
+(4, 'Bunny', 'test', 'test', 0, 3, 'AvatarYoung.png'),
 (6, 'smart doggy', 'test', '0000', 0, 3, '');
 COMMIT;
 
